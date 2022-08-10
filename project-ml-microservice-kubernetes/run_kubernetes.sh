@@ -9,8 +9,7 @@ dockerpath=oyegokeo/prediction_app
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl create deployment prediction_app --image=oyegokeo/prediction_app
-
+kubectl run predictionapp --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
@@ -18,5 +17,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose deployment/prediction_app type="Nodeport" --port 8080
+kubectl port-forward predictionapp 8080:80
 

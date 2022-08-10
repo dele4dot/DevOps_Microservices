@@ -10,6 +10,12 @@ jobs:
 
     steps:
       - checkout
+
+      - run:
+          name: run cmd
+          command: |
+                pwd
+                ls -la
       
       # Download and cache dependencies
       - restore_cache:

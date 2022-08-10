@@ -1,5 +1,4 @@
-# Template:
-[![dele4dot](https://circleci.com/gh/dele4dot/DevOps_Microservices.svg?style=svg)](https://github.com/dele4dot/DevOps_Microservices)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/dele4dot/DevOps_Microservices/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/dele4dot/DevOps_Microservices/tree/master)
 
 <!-- # Example:
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)

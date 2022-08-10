@@ -1,2 +1,2 @@
-project-ml-microservice-kubernetes/.devops
-.devops
+project-ml-microservice-kubernetes/.devops/
+*/.devops/

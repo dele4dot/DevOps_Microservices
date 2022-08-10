@@ -11,3 +11,14 @@
 [2022-08-10 09:14:22,615] INFO in app: Output prediction: 
 [20.35373177134412]
 127.0.0.1 - - [10/Aug/2022 09:14:22] "POST /predict HTTP/1.1" 200 -
+
+
+............... Returned JSON Value from make_predictions.sh.............................
+Port: 3222
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+.............................Port Forward Ouput......................................
+Forwarding from 127.0.0.1:8080 -> 80
